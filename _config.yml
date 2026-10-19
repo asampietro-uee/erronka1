@@ -3,8 +3,9 @@ description: Erronka 1 proiektuaren dokumentazio teknikoa eta ikasgaien laburpen
 theme: minima
 
 header_pages:
-  - datubase.md
-  - digit.md
-  - sareak.md
-  - markatze.md
-  - sistemaeragileak.md
+  - doc/index.md
+  - doc/datubase.md
+  - doc/digit.md
+  - doc/sareak.md
+  - doc/markatze.md
+  - doc/sistemaeragileak.md
