@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Erronka 1 - Dokumentazio Nagusia
+title: Sarrera
 ---
 
 # Ongi etorri Erronka 1-eko Dokumentaziora
