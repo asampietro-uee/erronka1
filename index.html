@@ -1,73 +1,137 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="eu">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Web de Prueba</title>
+  <title>Magia magikoa S.L. - Irtenbide Magiko eta Berritzaileak</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="background-glow"></div>
 
+  <!-- Goiko barra (Navbar) -->
   <header class="navbar">
-    <div class="logo">🚀 Silver Guacamole</div>
-    <nav>
-      <a href="#features">Características</a>
-      <a href="#demo">Demo</a>
-      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    <a href="#hasiera" class="logo">
+      <img src="img/logo.svg" alt="Magia magikoa S.L. logoa" class="logo-img">
+      <span>Magia magikoa S.L.</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#hasiera">Hasiera</a>
+      <a href="#zerbitzuak">Zerbitzuak</a>
+      <a href="#guri-buruz">Guri buruz</a>
+      <a href="#kontaktua">Kontaktua</a>
+      <a href="./doc/" class="btn-doc-nav">📚 Dokumentazioa</a>
     </nav>
   </header>
 
   <main class="container">
-    <section class="hero">
-      <span class="badge">✨ Página de Prueba</span>
-      <h1>Bienvenido a tu nueva <span class="gradient-text">página web</span></h1>
+    <!-- Hero Atala -->
+    <section id="hasiera" class="hero">
+      <span class="badge">✨ Ideiak magia bihurtzen</span>
+      <h1>Zure negoziorako soluzio aproposa <span class="gradient-text">Magia magikoarekin</span></h1>
       <p class="subtitle">
-        Diseño moderno, limpio y adaptable creado con HTML5, CSS moderno y JavaScript interactivo.
+        Esperientzia digital paregabeak eta zerbitzu berritzaileak sortzen ditugu. Zaila dirudiena magia hutsa bilakatzen dugu.
       </p>
       <div class="hero-actions">
-        <button id="counter-btn" class="btn btn-primary">
-          ¡Haz clic aquí! (<span id="counter-val">0</span>)
-        </button>
-        <button id="color-btn" class="btn btn-secondary">Cambiar acento</button>
+        <a href="./doc/" class="btn btn-primary">📖 Dokumentazioa Ikusi</a>
+        <a href="#zerbitzuak" class="btn btn-secondary">Gure Zerbitzuak</a>
       </div>
     </section>
 
-    <section id="features" class="features-grid">
-      <div class="card">
-        <div class="card-icon">⚡</div>
-        <h3>Rápida y Ligera</h3>
-        <p>Sin frameworks pesados ni dependencias externas lentas. Carga instantánea.</p>
+    <!-- Zerbitzuak Atala -->
+    <section id="zerbitzuak" class="section">
+      <div class="section-header">
+        <h2>Gure Zerbitzuak</h2>
+        <p>Zure proiektua bultzatzeko neurrira diseinatutako konponbide magikoak.</p>
       </div>
-      <div class="card">
-        <div class="card-icon">📱</div>
-        <h3>Diseño Responsivo</h3>
-        <p>Se adapta perfectamente a pantallas de móviles, tablets y ordenadores de escritorio.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🎨</div>
-        <h3>Estilo Moderno</h3>
-        <p>Efectos de desenfoque de cristal (glassmorphism), degradados y animaciones fluidas.</p>
+
+      <div class="features-grid">
+        <div class="card">
+          <div class="card-icon-wrapper">
+            <img src="img/service-consultoria.svg" alt="Aholkularitza Magikoa" class="card-img-icon">
+          </div>
+          <h3>Aholkularitza Magikoa</h3>
+          <p>Estrategia aurreratuak eta diagnostiko pertsonalizatua, zure proiektuaren eragina eta errendimendua gorenera eramateko.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon-wrapper">
+            <img src="img/service-digitalizazioa.svg" alt="Eraldaketa Digitala" class="card-img-icon">
+          </div>
+          <h3>Eraldaketa Digitala</h3>
+          <p>Zure lan-fluxuak eta azpiegitura teknologikoa modernizatzen ditugu, inoiz ikusi gabeko eraginkortasuna lortzeko.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon-wrapper">
+            <img src="img/service-neurrira.svg" alt="Neurriko Soluzioak" class="card-img-icon">
+          </div>
+          <h3>Neurriko Soluzioak</h3>
+          <p>Erabilgarritasunean, eskalagarritasunean eta erabiltzaile-esperientzia bikainean oinarritutako garapen zaindua.</p>
+        </div>
       </div>
     </section>
 
-    <section id="demo" class="demo-section">
-      <div class="card demo-card">
-        <h3>Prueba interactiva</h3>
-        <p>Escribe algo a continuación para ver cómo reacciona en tiempo real:</p>
-        <input type="text" id="interactive-input" placeholder="Escribe un mensaje aquí..." class="custom-input">
-        <p class="live-preview">Mensaje en directo: <strong id="preview-text">¡Hola mundo!</strong></p>
+    <!-- Guri Buruz Atala -->
+    <section id="guri-buruz" class="section">
+      <div class="card about-card">
+        <div class="about-content">
+          <h2>Magia magikoa S.L.-ri buruz</h2>
+          <p>
+            Ikuspegi berritzaile, sortzaile eta eraginkorrarekin soluzio profesionalak eskaintzera bideratutako enpresa gara. Gure lantaldeak punta-puntako teknologia eta dedikazioa uztartzen ditu, edozein itxaropen gainditzen duten emaitzak lortzeko.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">+100</span>
+              <span class="stat-label">Egindako Proiektu</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">%99.9</span>
+              <span class="stat-label">Asetasun-maila</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Etengabeko Laguntza</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontaktua / CTA Atala -->
+    <section id="kontaktua" class="section contact-section">
+      <div class="card contact-card">
+        <h2>Elkarrekin lan egiteko prest?</h2>
+        <p>Jarri harremanetan gure lantaldearekin edo kontsultatu xehetasun tekniko guztiak gure gida ofizialean.</p>
+        <div class="hero-actions">
+          <a href="mailto:info@magiamagikoa.com" class="btn btn-secondary">✉️ info@magiamagikoa.com</a>
+          <a href="./doc/" class="btn btn-primary">Joan Dokumentaziora (Jekyll)</a>
+        </div>
       </div>
     </section>
   </main>
 
+  <!-- Oina (Footer) -->
   <footer>
-    <p>Creado para pruebas locales • <span id="current-year"></span></p>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="img/logo.svg" alt="Magia magikoa S.L." class="footer-logo-img">
+          <strong>Magia magikoa S.L.</strong>
+        </div>
+        <p>Soluzio magikoak mundu digital baterako.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hasiera">Hasiera</a>
+        <a href="#zerbitzuak">Zerbitzuak</a>
+        <a href="#guri-buruz">Guri buruz</a>
+        <a href="./doc/">Dokumentazioa</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Magia magikoa S.L. Eskubide guztiak erreserbatuta.</p>
+    </div>
   </footer>
-
-  <script src="js/app.js"></script>
 </body>
 </html>

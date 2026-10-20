@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sareak
-permalink: /sareak.html
+permalink: /doc/sareak.html
 ---
 
 # Sareak

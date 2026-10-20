@@ -1,27 +1,26 @@
 ---
 layout: page
 title: Sistema Eragileak
-permalink: /sistemaeragileak.html
+permalink: /doc/sistemaeragileak.html
 ---
 
 # Sistema Eragileak
 
 Atal honetan zerbitzari eta lan-estazioen konfigurazioa, kudeaketa eta administrazioa laburtzen da.
 
-## 1. Ingurunearen Instalazioa eta Prestaketa
-- Sistema eragileen hedapena (Linux / Windows Server).
-- Makina birtualak eta isolatutako inguruneak erabiltzea (VirtualBox, VMware, etab.).
+## 1. Instalazioa eta Oinarrizko Konfigurazioa
+- Sistema eragilearen hautaketa (Linux zerbitzaria / Windows ingurunea).
+- Partizioen antolaketa, fitxategi-sistemak (ext4, NTFS) eta disko-kudeaketa.
 
-## 2. Erabiltzaileen eta Taldeen Kudeaketa
-- Erabiltzaile eta talde berriak sortzea (`useradd`, `groupadd`).
-- Baimenen esleipena fitxategi-sisteman (baimen estandarrak `chmod`/`chown` bidez eta ACL baimen aurreratuak).
-- Administratzaile-eskubideak (`sudo`, UAC).
+## 2. Erabiltzaileak eta Taldeak
+- Erabiltzaileen eta taldeen sorkuntza, baimenen hierarkia.
+- Fitxategien eta direktorioen baimenak (`chmod`, `chown`, ACL-ak).
 
 ## 3. Zerbitzuak eta Prozesuak
-- Sistema-zerbitzuen kontrola (`systemctl`, `service`).
-- Baliabideen monitorizazioa (CPU, RAM memoria, diskoaren erabilera: `top`, `htop`, `df`, `free`).
-- Zereginen automatizazioa (cron bidezko script-ak eta atazak).
+- Zerbitzuen kudeaketa (`systemctl`, daemon-ak).
+- Atazen planifikazioa eta automatizazioa (`cron` / Task Scheduler bidez).
+- Sistemaren baliabideen monitorizazioa (CPU, RAM, diskoaren erabilera).
 
-## 4. Segurtasuna eta Mantentze-lanak
-- Eguneraketen instalazioa eta paketeen biltegien kudeaketa (`apt`, `dnf`...).
-- Sistema-erregistroen (log-ak) ikuskapena (`journalctl`, `/var/log`).
+## 4. Mantentze-lanak eta Segurtasuna
+- Sistemaren eguneraketak eta adabakiak (patches).
+- Erregistroen analisia (log-ak: `/var/log` edo Event Viewer).

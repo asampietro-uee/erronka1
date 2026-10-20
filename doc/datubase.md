@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datu-baseak
-permalink: /datubase.html
+permalink: /doc/datubase.html
 ---
 
 # Datu-baseak

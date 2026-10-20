@@ -1,24 +1,25 @@
 ---
 layout: page
 title: Digitalizazioa
-permalink: /digit.html
+permalink: /doc/digit.html
 ---
 
 # Digitalizazioa (DIGIT)
 
 Atal honetan erakundearen edo proiektuaren digitalizazio-prozesua eta teknologia berrien ezarpena aztertzen da.
 
-## 1. Digitalizazioaren Helburuak
-- Prozesu tradizionalen automatizazioa eta optimizazioa.
-- Informazioaren irisgarritasuna eta fidagarritasuna handitzea.
-- Paperezko erregistroen ordez soluzio digitalak erabiltzea.
+## 1. Helburuak eta Estrategia
+- Negozio-prozesuen analisia eta automatizazio-aukerak identifikatzea.
+- Paperezko eta eskuzko prozesuak murriztea, eraginkortasuna hobetuz.
 
-## 2. Tresnak eta Teknologia Aplikatua
-- **Hodeiko zerbitzuak (Cloud)**: Elkarlanerako tresnak eta biltegiratzea.
-- **Lankidetza-inguruneak**: Bertsio-kontrol sistemak (Git/GitHub), proiektuen kudeaketa.
-- **Komunikazio-kanalak**: Talde-lanerako tresnak eta mezularitza arina.
+## 2. Tresna Digitalak
+- Elkarlanerako plataformak (hodeiko biltegiratzea, komunikazio-tresnak).
+- Datuen kudeaketarako eta analitikarako tresnak.
 
-## 3. Eragin Positiboa eta Hobekuntzak
-- Denboraren eta baliabideen aurrezpena.
-- Datuen zentralizazioa eta denbora errealeko sarbidea.
-- Jasangarritasun-irizpideak betetzea.
+## 3. Segurtasun Digitala eta Araudia
+- Datuen Babeserako Erregelamendu Orokorra (DBEO / RGPD) betetzea.
+- Informazioaren zaintza eta sarbide-politika seguruak.
+
+## 4. Emaitzak eta Onurak
+- Denboraren eta kostuen aurrezpena.
+- Bezeroarekiko edo erabiltzailearekiko arreta arinagoa eta pertsonalizatuagoa.
